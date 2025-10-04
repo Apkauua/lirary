@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+header {
+    background-image: url(resource/wmremove.jpg);
+    /* зафиксировать задний фон */
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: left;
+    padding: 200px 0 0 0;
+    font-size: 60px;
+    color: #E8D1A7;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    margin: 0 0 0 30px;
+}
+h3 {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: left;
+    color: #E8D1A7;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); 
+    margin: 0 0 0 30px;
+}
+
+.top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100%/1);
+    background-color: rgb(73, 73, 116);
+    color: #E8D1A7;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    font-size: 35px;
+    
+}
+.bottom {
+    display: flex;
+    background-color: rgb(73, 73, 116);
+    
+}
+.bottom div {
+    height: 100px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: calc(100%/3);
+    background-color: rgb(73, 73, 116);
+    font-size: 20px;
+    text-align: center;
+    color: #E8D1A7;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.boocks {
+    font-size: 0px;;
+    height: 450px;
+    /* border: #503a2a solid 2px; */
+    display: flex;
+}
+.boock{
+    display: inline-block;
+    width: calc(100%/4);
+    font-size: 30px;
+    /* border: 2px solid green; */
+    text-align: center;
+    color: #E8D1A7;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
+    background-color: #1f1e1e;
+}
+
+/* сделать всплывающие книги */
+
+.photo{
+    width: 200px;
+    margin: 30px;
+    border-radius: 12px;
+    box-shadow: 10px 30px 10px rgba(10, 10, 10, 0.8);
+    cursor: pointer;  
+}
+.pipe{
+    border: #964747 2px solid;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(73, 73, 116);
+}
