@@ -97,9 +97,13 @@ h3 {
     box-shadow: 10px 30px 10px rgba(10, 10, 10, 0.8);
     cursor: pointer;  
 }
-.pipe{
-    border: #964747 2px solid;
-    padding: 30px;
-    font-family: 'Courier New', Courier, monospace;
+footer{
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+    color: #E8D1A7;
     background-color: rgb(73, 73, 116);
+    height: 100px;
 }
+
